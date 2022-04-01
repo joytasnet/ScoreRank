@@ -32,7 +32,7 @@ public class SugawaraMain{
 		//結果表示names:(scores)
 		System.out.println("--　結果　--");
 		for(int i=0; i<n ;i++){
-			System.out.printf("(1):%s (%d)%n",names[i],scores[i]);
+			System.out.printf("(%d):%s (%d)%n",i+1,names[i],scores[i]);
 		}
 	}
 }
